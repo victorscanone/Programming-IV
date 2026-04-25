@@ -1,0 +1,103 @@
+/*Todos*/
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #406B9D;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+}
+
+.menu li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+}
+
+.menu-icons {
+    max-width: 70px;
+}
+
+footer {
+    background-color: #406B9D;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*Home*/
+#home-section {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-section img {
+    max-width: 350px;
+    grid-column: 1;
+    display: block;
+    margin: auto;
+}
+
+#home-section div {
+    display: grid;
+    grid-column: 2;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-right: 70px;
+}
+
+#home-section div h1 {
+    font-size: 60px;
+}
+
+#home-section div p {
+    font-size: 30px;
+}
+
+/*Sobre*/
+#sobre-section {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    text-align: center;
+}
+
+#sobre-section h1 {
+    font-size: 60px;
+
+}
+
+#sobre-section div {
+    padding-left: 100px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 25px;
+}
+
+/*Habilidades*/
+
+
+/*Cursos*/
+
+
+/*Contato*/
