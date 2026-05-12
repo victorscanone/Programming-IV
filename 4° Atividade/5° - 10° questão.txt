@@ -1,0 +1,69 @@
+────────────────────────────
+5. Explique a diferença entre o modelo monolítico e o modelo Frontend + Backend via
+API. Cite um exemplo de tecnologia para cada modelo.
+
+R: No modelo monolítico o programa fica junto em uma só estrutura indivisível. Já no modelo Frontend + Backend via
+API a aplicação é dividida em duas partes, o front e o back, e essas partes se comunicam atráves de uma API.
+────────────────────────────
+6. O que é o DOM (Document Object Model)? Qual é a relação entre o HTML escrito pelo
+desenvolvedor e o DOM criado pelo navegador?
+
+R: O DOM é a árvore que o navegador cria ao ler o HTML, ele é útil para demonstrar heranças dentro de uma página.
+O HTML escrito pelo desenvolvedor é um código estático cheio de tags, já o DOM criado pelo navegador é a representação 
+ao vivo do código dentro do navegador, transformando toda tag em um objeto e permitindo o JS manipular e acessar a estrutura.
+────────────────────────────
+7. Explique o que é o Box Model do CSS, descrevendo cada uma das quatro camadas: content,
+padding, border e margin. Qual a diferença prática entre padding e margin?
+
+R: o Box Model é um conceito que coloca todo elemento como uma caixa, e essa caixa pode ser empilhada ou interagir com outras
+caixa.
+O Box Model conta com quatro camadas, sendo elas: o content, que é o texto ou a imagem; o padding que serve como uma almofada 
+e dá um espaço do conteudo para a borda da caixa; o border que é a borda, e pode se tornar visivel quando você altera a cor, 
+estilo e grossura; e o margin é a margem entre um box model e outro, funciona como uma rua q divide duas casas (os box models).
+A sequência de mais interno para mais externo é: Content, Padding, Border e Margin.
+Enquanto Padding é mais interno e serve como um espaço entre o conteudo e a borda, a margem é quase que a mesma coisa só que 
+com todo o box model e não apenas com o content.
+────────────────────────────
+8. O que é o Bootstrap? Por que usar Bootstrap em vez de escrever todo o CSS manualmente?
+Cite dois componentes ou classes do Bootstrap que você conhece e descreva para que servem.
+
+R: O Bootstrap é um framework que oferece diversos estilos e componentes prontos para uso. Para usar basta colocar classes pré 
+existentes nos elementos do HTML. O Bootstrap pode ser muito útil caso você queira, por exemplo, criar um protótipo de um 
+software que você vai desenvolver e você não quer perder muito tempo estilizando ou você não sabe muito bem CSS.
+Duas classes que eu conheço do Bootstrap são:
+O btn tbn - primaty, que serve para estilizar um botão.
+<button class = "btn btn - primary"> </button>
+E o outro exemplo é o text-danger, que deixa o texto vermelho e indica erro.
+<p class="text-danger">Senha errada</p>
+────────────────────────────
+9. Qual a diferença entre os seletores por elemento, por classe e por ID no CSS? Dê um
+exemplo de sintaxe para cada um e explique qual tem maior especificidade (prioridade) sobre
+os outros.
+
+R: 
+Quando você seleciona um elemento você acaba editando todos elementos que possuem aquela tag, porém a especificidade é mais 
+baixa que selecionar por classe ou id.
+p {
+    color: #fff;
+}
+
+Quando você seleciona uma classe você pode pode editar todos elementos que possuem aquela classe, para usar basta escrever um 
+ponto e o nome da classe no CSS. A especificidade é maior que o de selecionar um elemento.
+.classe {
+    padding: 10px;
+}
+
+Quando você seleciona um elemento por id você vai conseguir editar apenas um único elemento. Para selecionar por id basta 
+escrever # e o nome do id. A especificidade do id é mais alta que o de selecionar por tag e por classe.
+#id {
+    border-width: 100px;
+}
+────────────────────────────
+10. Qual é a diferença entre usar HTML semântico (com tags como <header>, <nav>, <main>,
+<footer>) e usar apenas <div> para estruturar uma página? Quais benefícios o HTML
+semântico traz para SEO e acessibilidade?
+
+R: A vantagem e os benefícios de utilizar HTML semântico em detrimento de usar apenas divs é que com a utilização das tags 
+especificas o Google e o SEO (Search Engine Optimization) conseguem fazer uma leitura mais adequada do código, facilitando a 
+acessibilidade de pessoas cegas, por exemplo.
+────────────────────────────

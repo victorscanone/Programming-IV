@@ -1,0 +1,24 @@
+/*
+2. Escreva o CSS para estilizar um card de produto (classe .produto-card). O card deve
+ter:
+• Fundo branco
+• Borda de 1px sólida cinza (#ccc)
+• Cantos arredondados (border-radius: 8px)
+• Padding interno de 16px
+• Margem inferior de 12px
+• Cor do título (h3 dentro do card) em azul escuro (#003366)
+*/
+
+.produto-card {
+    background-color: #fff;
+    border-color: #ccc;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.produto-card h3 {
+    color: #003366;
+}
