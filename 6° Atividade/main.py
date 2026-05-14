@@ -10,7 +10,7 @@ Base.metadata.create_all(bind=engine)  # cria as tabelas ao iniciar
 app = FastAPI(title="API de Catalogo de Produtos (SQLite)")
 
 
-@app.get("/produtos12345", response_model=list[ProdutoResponse])
+@app.get("/produtostodos", response_model=list[ProdutoResponse])
 def listar(db: Session = Depends(get_db)):
     return crud.listar_produtos(db)
 
