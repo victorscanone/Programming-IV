@@ -21,7 +21,3 @@ class ProdutoResponse(BaseModel):
     quantidade: int
 
     model_config = ConfigDict(from_attributes=True)
-
-
-
-    alterar os valores nas classes

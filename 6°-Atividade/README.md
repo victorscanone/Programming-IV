@@ -14,7 +14,9 @@ Permite buscar, listar, criar, atualizar e remover produtos.
 # Como executar?
 
 Escreva no terminal:
-bash pip install fastapi uvicorn sqlalchemy uvicorn main:app --reload 
+pip install fastapi uvicorn sqlalchemy 
+
+uvicorn main:app --reload 
 
 Depois vá para essa URL em um navegador:
 http://127.0.0.1:8000/docs
