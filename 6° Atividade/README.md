@@ -21,7 +21,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-#Rotas
+# Rotas
 
 | Método | Rota | Função |
 |--------|------|--------|
@@ -34,7 +34,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-#Decisões
+# Decisões
 
 - SQLite como banco de dados
 - Todos os campos obrigatórios na criação
